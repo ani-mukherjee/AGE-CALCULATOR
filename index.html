@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="heading">AGE CALCULATOR</h1>
-    <h2 class="dob">Your Date of Birth</h2>
+        <h1 class="heading">AGE CALCULATOR</h1>
+        <h2 class="dob">Your Date of Birth</h2>
     <div class="form-fill">
-        <label for="age">Date : </label><br>
-        <input type="number" id="age" placeholder="dd" min="1" max="31" required>
-        <label for="age">Month : </label><br>
-        <select name="age" id="age" required>
+        <label for="date">Date : </label><br>
+        <input type="number" id="date" placeholder="dd" min="1" max="31" required>
+        <label for="mnth">Month : </label><br>
+        <select name="age" id="mnth" required>
+            <option value="month" selected disabled class="bkrnd"> month</option>
             <option value="jan"> January</option>
             <option value="feb"> February</option>
             <option value="mar"> March</option>
@@ -24,12 +25,12 @@
             <option value="jl"> July</option>
             <option value="ag"> August</option>
             <option value="sept"> September</option>
-            <option value="oct"> October</option>
+            <option value="oct"> October</option> 
             <option value="nov"> November</option>
             <option value="dec"> December</option>
         </select>
-        <label for="age">Year : </label><br>
-        <input type="number" id="age" placeholder="yyyy" min="1900" required>
+        <label for="yr">Year : </label><br>
+        <input type="number" id="yr" placeholder="yyyy" min="1900" required>
     </div>
     <div>
         <input type="submit" id="submit" value="Caculate">

@@ -10,7 +10,7 @@
     font-style: italic;
     color: #5b037b;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 100%;
@@ -24,7 +24,7 @@
 .dob{
     text-align: center;
     color: rgb(85, 94, 2);
-    margin: 65px 50px 55px 50px;
+    margin: 60px 55px 55px 50px;
     font-size: xx-large;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -32,19 +32,44 @@
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     font-weight: bolder;
     font-size: larger;
     color: #fb0ca0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
-#age{
+#date{
     margin-left: 8px;
     margin-right: 18px;
     width: 123px;
     height: 30px;
     border-radius: 8px;
-    border-color: #9405e6;
+    border-color:  #a443d8;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 94, 115);
+    background-color: aqua;
+}
+#mnth{
+    margin-left: 8px;
+    margin-right: 18px;
+    width: 123px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 94, 115);
+    background-color: aqua;
+}
+#yr{
+    margin-left: 8px;
+    margin-right: 18px;
+    width: 123px;
+    height: 30px;
+    border-radius: 8px;
+    border-color:  #a443d8;
     text-align: center;
     font-size: large;
     font-weight: bold;
