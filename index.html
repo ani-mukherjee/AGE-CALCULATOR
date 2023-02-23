@@ -14,27 +14,13 @@
         <label for="date">Date : </label><br>
         <input type="number" id="date" placeholder="dd" min="1" max="31" required>
         <label for="mnth">Month : </label><br>
-        <select name="age" id="mnth" required>
-            <option value="month" selected disabled class="bkrnd"> month</option>
-            <option value="january"> January</option>
-            <option value="february"> February</option>
-            <option value="march"> March</option>
-            <option value="april"> April</option>
-            <option value="may"> May</option>
-            <option value="june"> June</option>
-            <option value="july"> July</option>
-            <option value="august"> August</option>
-            <option value="september"> September</option>
-            <option value="october"> October</option> 
-            <option value="november"> November</option>
-            <option value="december"> December</option>
-        </select>
+        <input type="number" id="mnth" placeholder="mm" min="1" max="12" required>
         <label for="yr">Year : </label><br>
         <input type="number" id="yr" placeholder="yyyy" min="1900" required>
     </div>
     <div>
         <input type="submit" id="submit" value="Calculate" onclick="age()">
-    </div><br><br>
+    </div><br><br><br>
     <p id="age"> </p>
     <script src="script.js"></script>
 </body>
