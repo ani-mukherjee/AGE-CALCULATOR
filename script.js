@@ -12,6 +12,7 @@ function age() {
     if(m>11){
       y=y+1;
       m=0;
-    }
-    document.getElementById('age').innerHTML = 'Your Age is '+y+' Years '+m+' Months '+d+' Days ';
   }
+      document.getElementById('age').innerHTML = 'Your Age is '+y+' Years '+m+' Months '+d+' Days ';
+  }
+  
