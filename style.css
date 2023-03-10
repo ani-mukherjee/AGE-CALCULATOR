@@ -102,3 +102,30 @@
     font-size: xx-large;
     font-weight: 700;
 }
+
+
+
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .form-fill{
+        width: 330px;
+        margin-left: 25px;
+    }
+    .dob{
+        font-size: x-large;
+    }
+    #date{
+        width: 55px;
+    }
+    #mnth{
+        width: 55px;
+    }
+    #yr{
+        width: 65px;
+    }
+    #age{
+        font-size: x-large;
+    }
+}
+
