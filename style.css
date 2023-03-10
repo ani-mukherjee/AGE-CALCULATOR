@@ -110,19 +110,19 @@
 @media only screen and (max-width: 768px) {
     .form-fill{
         width: 100%;
-        margin-left: 10px;
+        margin-left: 12px;
     }
     .dob{
         font-size: x-large;
     }
     #date{
-        width: 55px;
+        width: 53px;
     }
     #mnth{
-        width: 55px;
+        width: 53px;
     }
     #yr{
-        width: 65px;
+        width: 60px;
     }
     #age{
         font-size: x-large;
