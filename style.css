@@ -109,8 +109,8 @@
 /* Extra small devices (phones, 768px and down) */
 @media only screen and (max-width: 768px) {
     .form-fill{
-        width: 330px;
-        margin-left: 25px;
+        width: 100%;
+        margin-left: 10px;
     }
     .dob{
         font-size: x-large;
